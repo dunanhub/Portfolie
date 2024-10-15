@@ -1,0 +1,325 @@
+<!-- <?php include 'sendemail.php'; ?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZooLand</title>
+
+    <link  rel = "shortcut icon"  href = "favicon.ico"  type = "image / x-icon" > 
+    <link  rel = "icon"  href = "favicon.ico"  type = "image / x-icon" >
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- <?php echo $alert; ?> -->
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"><span class="span">Zoo</span>Land </a>
+
+    <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#shop">Товары</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Вход</h3>
+        <input type="email" name="" placeholder="email" id="" class="box">
+        <input type="password" name="" placeholder="пороль" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">запомнить меня</label>
+        </div>
+        <input type="submit" value="войти" class="btn">
+        <div class="links">
+            <a href="#">забыл пароль</a>
+            <a href="#">зарегистрироваться</a>
+        </div>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> <span>Привет! </span>Добро пожаловат в ZooLand</h3>
+        <a href="#shop" class="btn">Купить сейчас</a>
+    </div>
+
+    <img src="image/bottom_wave.png" class="wave" alt="">
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/about_img.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>О <span> нас </span> </h3>
+        <p>Приветствуем вас в нашем интернет-магазине Чемпион - ZooLand!</br>
+            Вашему вниманию представлен широкий выбор кормов для собак и кошек, обширный перечень зоотоваров и ветеринарных препаратов для Ваших животных.</br><span id="dots">...</span>
+            <span id="more">
+                Наш интернет-зоомагазин был открыт в 2009 году и стал одним из первых зоомагазинов, осуществляющих on-line продажу зоотоваров в Казахстане.</br>
+                Менеджеры зоомагазина являются профессиональными заводчиками с более чем 15-летним стажем в области кинологии. С нами сотрудничают питомники и заводчики со всего Казахстана!</br>
+                Мы предлагаем только те товары, которыми с успехом пользуемся сами.</br>
+                На данный момент мы представляем собой компанию, владеющую несколькими интернет–магазинами и несколькими оффлайн-магазинами и имеющую в своей сети единый call-центр, который регулирует всю деятельность магазина, отдела продаж, службу доставки, штат квалифицированных сборщиков, собственный склад c постоянным наличием необходимого запаса товаров. Теперь мы можем доставлять заказы прямо в день заказа по г. Алматы, и до 10 дней в любой город Казахстана.</br>
+                За время работы магазинов у нас сложились партнерские отношения с ведущими производителями и дистрибьюторами товаров для животных, позволяющие предлагать высококачественную продукцию по конкурентоспособным ценам.</br>
+                Наша работа помогает сделать этот мир лучше, потому что домашние питомцы приносят радостные эмоции и ощущение полноты жизни. Выберите «ZooLand» и получайте удовольствие от покупок и общения с питомцем.</br> Мы всегда рады видеть Вас!</span></p>
+        <button onclick="myFunction()" id="myBtn"><span>больше</span></button>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- dog and cat food banner section starts -->
+
+<div class="dog-food">
+
+    <div class="image">
+        <img src="image/dog_food.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3> <span>Высушенный на воздухе </span> корм для собак </h3>
+        <p>Для большинства владельцев собак, кормление собак готовым кормом имеет наибольший смысл; это не только удобно, но сытно, здорово и полезно для собаки, если мы говорим о качественном корме.</p>
+        <div class="amount">2000₸</div>
+        <a href="Dogs.html"> <img src="image/shop_now_dog.png" alt=""> </a>
+    </div>
+
+</div>
+
+<div class="cat-food">
+
+    <div class="content">
+        <h3> <span>Высушенный на воздухе </span> корм для кошек </h3>
+        <p>Наш магазин хорошо известен тем, что у нас самый широкий выбор товаров для кошек и котят, у нас есть все, что нужно для вашего сладкого любимца. Мы не только являемся экспертами по питанию кошек, более того, мы сами любим кошек. </p>
+        <div class="amount">1500₸</div>
+        <a href="Cats.html"> <img src="image/shop_now_cat.png" alt=""> </a>
+    </div>
+
+    <div class="image">
+        <img src="image/cat_food.png" alt="">
+    </div>
+
+</div>
+
+<!-- dog and cat food banner section ends -->
+
+<!-- shop section starts  -->
+
+<section class="shop" id="shop">
+
+    <h1 class="heading">Наша <span>продукция</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="Dogs.html" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_01.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Высушенные на воздухе продукты</h3>
+                <div class="amount"> 2000₸ </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="Dogs.html" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_02.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Высушенные на воздухе продукты  </h3>
+                <div class="amount"> 1800₸ </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="Dogs.html" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_03.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Высушенные на воздухе продукты  </h3>
+                <div class="amount"> 2000₸ </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="Dogs.html" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_04.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Высушенные на воздухе продукты  </h3>
+                <div class="amount"> 1900₸ </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="Cats.html" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_cats01.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Высушенные на воздухе продукты  </h3>
+                <div class="amount"> 1500₸ </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="Dogs.html" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_06.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Высушенные на воздухе продукты  </h3>
+                <div class="amount"> 2200₸ </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- shop section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> Наши <span>услуги</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-dog"></i>
+            <h3>Для собак</h3>
+            <a href="Dogs.html" class="btn">еще</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-cat"></i>
+            <h3>Для кошек</h3>
+            <a href="Cats.html" class="btn">еще</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bath"></i>
+            <h3>Груминг</h3>
+            <a href="Gruming.html" class="btn">еще</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-drumstick-bite"></i>
+            <h3>Здоровое Питание</h3>
+            <a href="Zdorovoe_petanie.html" class="btn">еще</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="image/contact_img.png" alt="">
+    </div>
+
+    <form action="" method="post">
+
+        <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="ZooLand">
+		<input type="hidden" name="admin_email" value="damir.maratov.00@inbox.ru">
+		<input type="hidden" name="form_subject" value="footer form">
+		<!-- END Hidden Required Fields -->
+
+        <h3>Контакты</h3>
+        <input type="text" name="name" placeholder="Имя" class="box" required>
+        <input type="email" name="e-mail" placeholder="Почта" class="box" required>
+        <textarea name="message" placeholder="Напишите сообщение" id="" cols="30" rows="10"></textarea>
+        <button type="submit" name="submit" class="btn">Отправить сообщение</button>
+        <div class="status"></div>
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <img src="image/top_wave.png" alt="">
+
+    <div class="share">
+        <a href="#" class="btn"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#" class="btn"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="https://www.instagram.com/d.unan_" class="btn"> <i class="fab fa-instagram"></i> instagram </a>
+    </div>
+
+    <div class="credit"> created by <span> mr. Bekzat </span> | all rights reserved! </div>
+
+</section>
+
+<!-- custom js file link  -->
+<script src="js/scripts.js"></script>
+<!-- script src="https://code.jquery.com/jquery-1.11.3.min.js"></!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+        if(window.history.replaceState){
+        window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
+
+
+</body>
+</html>
