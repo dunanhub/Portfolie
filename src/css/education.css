@@ -1,0 +1,119 @@
+.eande__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    width: auto;
+}
+.eande__section .eande__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: var(--text);
+}
+.eande__block .eande__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: calc(95% / 2);
+}
+.eande__block .second {
+    justify-content: right;
+    align-items: flex-end;
+    text-align: right;
+}
+.eande__container .eande {
+    width: 300px;
+    background-color: var(--bg);
+    padding: 20px;
+    border: 3px solid var(--text-active);
+    border-radius: 20px;
+    box-shadow: #ffffff16 0px 0px 29px 10px;
+    margin: 20px 0;
+}
+.eande__container .eande .eande__title {
+    font-size: 20px;
+    font-weight: 600;
+    /* color: var(--text-active); */
+}
+.eande__container .eande .eande__years {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+    opacity: .6;
+}
+.eande__container .eande .eande__text {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: .6;
+}
+.eande__container .eande:hover {
+    transform: scale(1.03);
+}
+.eande__container .empty {
+    border: none;
+    height: 100px;
+    background: transparent;
+    box-shadow: none;
+}
+.eande__block .eande__line {
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 550px;
+}
+.eande__block .eande__line span.center {
+    position: relative;
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: var(--text-active);
+}
+.eande__block .eande__line span.center span.line__line {
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background-color: var(--text-active);
+}
+.eande__block .eande__line span.center span.line__line:nth-child(1) {
+    right: 0;
+    top: 0;
+}
+.eande__block .eande__line span.center span.line__line:nth-child(3) {
+    left: 0;
+    top: 200px;
+}
+.eande__block .eande__line span.center span.line__line:nth-child(5) {
+    left: 0;
+    bottom: 200px;
+}
+.eande__block .eande__line span.center span.line__line:nth-child(7) {
+    right: 0;
+    bottom: 0;
+}
+.eande__block .eande__line span.center span.line__circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    /* padding: 0px 5px; */
+    border: 3px solid var(--text-active);
+    border-radius: 50%;
+}
+.eande__block .eande__line span.center span.line__circle:nth-child(2) {
+    top: -6px;
+    right: 70px;
+}
+.eande__block .eande__line span.center span.line__circle:nth-child(4) {
+    top: 194px;
+    left: 70px;
+}
+.eande__block .eande__line span.center span.line__circle:nth-child(6) {
+    bottom: 194px;
+    left: 70px;
+}
+.eande__block .eande__line span.center span.line__circle:nth-child(8) {
+    bottom: -6px;
+    right: 70px;
+}

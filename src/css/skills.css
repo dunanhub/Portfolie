@@ -1,0 +1,64 @@
+.skills__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+    margin-top: -20px;
+}
+.skills__section .skills__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    color: var(--text);
+    width: 80%;
+}
+.skills__block .skill__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 130px;
+    height: 180px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 50px;
+}
+.skills__block .skill__container .skill__img__bg {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: 0 0;
+    width: 130px;
+    height: 130px;
+    filter: brightness(30%);
+}
+.skills__block .skill__container .progress__block {
+    position: absolute;
+    right: -30px;
+    top: 70px;
+    background-color: rgba(164, 88, 88, 0.532);
+    padding: 20px 10px;
+    border: 4px solid #e62828;
+    border-radius: 50%;
+}
+.skills__block .skill__container .progress__block .progress__text {
+    font-size: 20px;
+    color: #e62828;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.skills__block .skill__container .skill__info {
+    /* position: absolute;
+    right: -30px;
+    bottom: 0; */
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: var(--text);
+    font-family: 'Kurale';
+    /* font-style: italic; */
+}

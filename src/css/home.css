@@ -1,0 +1,107 @@
+/* main section */
+.main__section {
+    margin: 0 auto;
+    padding: 0 10%;
+}
+.main__section .main__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__block .img__block {
+    width: 100%;
+}
+.img__block img.me {
+    width: 32vw;
+    border-radius: 50%;
+}
+
+.main__block .info__block {
+    width: 100%;
+}
+.info__block .info__title__block {
+    width: auto;
+}
+.info__title__block .info__title {
+    position: relative;
+    color: var(--text);
+    font-size: 56px;
+    font-weight: 500;
+}
+.info__title__block .info__title:nth-child(3) {
+    font-size: 38px;
+}
+.info__title__block .info__title span {
+    color: var(--text-active);
+}
+.info__title__block .info__title span.dev::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 78%;
+    height: 100%;
+    background-color: var(--bg);
+    border-left: 3px solid var(--text-active);
+    animation: textWrite 4s steps(20) infinite;
+}
+.info__block .info__description__block {
+    width: auto;
+    margin: 30px 0;
+}
+.info__description__block .info__description {
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.info__block .social__block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: auto;
+}
+.social__block a.social__link {
+    font-size: 22px;
+    color: var(--text-active);
+    border: 2px solid var(--text-active);
+    border-radius: 50%;
+    transition: .2s ease;
+}
+.social__block a.social__link:nth-child(2) {
+    margin: 0 20px;
+}
+.social__block a.social__link i {
+    padding: 0 7px;
+}
+.social__block a.social__link:hover {
+    transform: scale(1.1);
+    color: var(--text);
+}
+.info__block .info__me__block {
+    width: auto;
+    margin-top: 60px;
+}
+.info__me__block a.info__me {
+    color: var(--text-active);
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 34px;
+    border: 2px solid var(--text-active);
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: .3s ease-in-out;
+}
+.info__me__block a.info__me:hover {
+    color: var(--text);
+    border-color: var(--text);
+}
+
+@keyframes textWrite {
+    40%, 60% {
+        width: 0;
+    }
+    100% {
+        width: 78%;
+    }
+}

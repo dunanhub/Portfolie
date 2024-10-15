@@ -1,0 +1,30 @@
+/* import css */
+@import url(header.css);
+@import url(home.css);
+@import url(services.css);
+@import url(skills.css);
+@import url(education.css);
+@import url(experience.css);
+@import url(contact.css);
+
+/* import fonts */
+@import url(../fonts/fonts.css);
+
+/* roots */
+:root {
+    --bg: #101010;
+    --text: #fff;
+    --text-active: #b74b4b;
+}
+
+/* main style */
+* {
+    margin: 0;
+    font-family: 'Poppins';
+    transition: .3s;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg);
+}
